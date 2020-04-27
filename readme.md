@@ -2,7 +2,7 @@
 1. Replace `<your_account>` with your Github username in the links
     - [DEMO LINK](https://coroboX.github.io/{{put the repo name}}/)
     - [TEST REPORT LINK](https://coroboX.github.io/{{put the repo name}}/report/html_report/)
-    - [VIDEO LINK](https://www.loom.com/share/<video_id>)
+    - [VIDEO LINK](https://www.loom.com/share/437effe7121545918e130b7c2b567ddb>)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
 ___
 
