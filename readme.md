@@ -13,7 +13,7 @@ ___
 
 1. Fork this repo
 1. Clone forked repo
-1. Open VSCode in repo folder
+1. Open VSCode in repo foldergit push origin develop
 1. Install next plugins: `htmllint`, `stylelint`, `eslint`
     - or show installed in list
 1. Install dependencies
