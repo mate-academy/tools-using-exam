@@ -2,8 +2,8 @@
 1. Replace `<your_account>` with your Github username in the links
     - [DEMO LINK](https://vlaDinter<.github.io/tools-using-exam/)
     - [TEST REPORT LINK](https://vlaDinter.github.io/tools-using-exam/report/html_report/)
-    - [VIDEO LINK](https://www.loom.com/share/<video_id>)
-2. Follow [this instructions](https://www.loom.com/share/888e87e1fa1049f9ae6df27767cc2d35)
+    - [VIDEO LINK](https://www.loom.com/share/888e87e1fa1049f9ae6df27767cc2d35)
+2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
 ___
 
 ## The task
