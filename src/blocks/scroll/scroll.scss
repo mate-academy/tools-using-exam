@@ -1,11 +1,11 @@
-@import '../../scss/import.scss';
+@import "../../scss/import.scss";
 .scroll {
   text-align: center;
 
   &__text {
     font-weight: bold;
     font-size: $commontext;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     @include laptop {
       font-size: $commontext-l;
     }
@@ -17,7 +17,6 @@
     @include phone {
       font-size: $commontext-fix;
     }
-
   }
 
   &__img {
@@ -25,7 +24,5 @@
       width: 8%;
       height: auto;
     }
-
   }
-
 }

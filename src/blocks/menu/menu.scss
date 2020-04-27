@@ -1,4 +1,4 @@
-@import '../../scss/import.scss';
+@import "../../scss/import.scss";
 .menu {
   position: fixed;
   top: 0;
@@ -6,8 +6,9 @@
   right: 0;
   font-size: $maintext;
   text-align: center;
-  padding: (41px/1920px*100%) 0 (36px/1920px*100%);  //41px & 41px-5px(lh)
-  background-color: rgba(150, 150, 150, .7);
+  padding: (41px/1920px * 100%) 0 (36px/1920px * 100%); //41px & 41px-5px(lh)
+  background-color: #8834fb;
+  opacity: 0.7;
   border-bottom: 1px solid $maingray;
   @include laptop {
     font-size: $maintext-l;
@@ -23,11 +24,10 @@
 
   &__item {
     display: inline-block;
-    padding-right: (42.2px/$maintext*.1em*1rem/1px);  //50px
+    padding-right: (42.2px / $maintext * 0.1em * 1rem/1px); //50px
     @include phone {
       padding-right: 5px;
     }
-
   }
 
   &__link {
@@ -40,7 +40,5 @@
     @include phone {
       padding-right: 0;
     }
-
   }
-
 }
