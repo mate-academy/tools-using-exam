@@ -1,12 +1,12 @@
-@import 'fonts';
+@import "fonts";
 
-@import 'variables';
+@import "variables";
 
-@import 'mixins';
+@import "mixins";
 .about {
   padding-left: $pad-m;
   padding-right: $pad-m;
-  padding-top: (174px/1920px*100%);
+  padding-top: (174px/1920px * 100%);
   @include tablet {
     padding-left: $pad-s;
     padding-right: $pad-s;
@@ -15,7 +15,6 @@
   &__scroll {
     margin-top: 75px;
   }
-
 }
 
 .about-me {
@@ -31,11 +30,10 @@
     @include laptop {
       flex: 4 1;
     }
-
   }
 
   &__layout-right {
-    padding-left: (54px/(1920px-167px*2)*100%);
+    padding-left: (54px/ (1920px-167px * 2) * 100%);
     flex: 1 1;
     align-self: center;
     @include laptop {
@@ -45,7 +43,6 @@
     @include tablet {
       margin-bottom: 30px;
     }
-
   }
 
   &__photo {
@@ -56,37 +53,31 @@
       display: block;
       margin: 0 auto;
     }
-
   }
 
   &__headline {
-    margin-bottom: (8.6rem/$head1*1em);
+    margin-bottom: (8.6rem / $head1 * 1em);
     font-size: $head1;
     color: $mainblack;
     @include laptop {
-      margin-bottom: (8.6rem/$head1*1em*.6);
-    }
-
-    @include tablet {
-
+      margin-bottom: (8.6rem);
     }
 
     @include phone {
       font-size: $head1-l;
     }
-
   }
 
   &__description {
-    margin-bottom: (7.9rem/$maintext*1em);
-    font-family: 'Open Sans', sans-serif;
+    margin-bottom: (7.9rem / $maintext * 1em);
+    font-family: "Open Sans", sans-serif;
     font-size: $maintext;
     line-height: (50/24);
     text-transform: none;
     color: $mainblack;
     @include laptop {
       font-size: $maintext-l;
-      margin-bottom: (7.9rem/$maintext*1em*.6);
+      margin-bottom: (7.9rem / $maintext * 1em * 0.6);
     }
 
     @include tablet {
@@ -96,20 +87,17 @@
     @include phone {
       font-size: $maintext-fix;
     }
-
   }
 
   &__first-p {
-    margin-bottom: (6rem/$maintext*1em);
+    margin-bottom: (6rem / $maintext * 1em);
     @include laptop {
-      margin-bottom: (6rem/$maintext*1em*.6);
+      margin-bottom: (6rem / $maintext * 1em * 0.6);
     }
-
   }
 
   &__signature {
     @include laptop {
-
     }
 
     @include tablet {
@@ -119,9 +107,7 @@
     @include phone {
       width: 30%;
     }
-
   }
-
 }
 
 .contacts {
@@ -129,7 +115,7 @@
   text-align: center;
 
   &__channel {
-    margin-bottom: (32px/$head3*.1em*1rem/1px);
+    margin-bottom: (32px / $head3 * 0.1em * 1rem/1px);
     font-size: $head3;
     font-weight: bold;
     @include tablet {
@@ -139,12 +125,11 @@
     @include phone {
       font-size: $head3-xl;
     }
-
   }
 
   &__email {
     font-size: $head1;
-    margin-bottom: (53px/$head1*.1em*1rem/1px);
+    margin-bottom: (53px / $head1 * 0.1em * 1rem/1px);
     @include tablet {
       font-size: $head1-xl;
     }
@@ -152,12 +137,11 @@
     @include phone {
       font-size: $head1-xl;
     }
-
   }
 
   &__phone {
     font-size: $head2;
-    margin-bottom: (60px/$head2*.1em*1rem/1px);
+    margin-bottom: (60px / $head2 * 0.1em * 1rem/1px);
     @include tablet {
       font-size: $head2-xl;
     }
@@ -165,112 +149,99 @@
     @include phone {
       font-size: $head2-xl;
     }
-
   }
-
 }
 
 .copyright {
   text-align: center;
-  padding: (43px/1920px*100%) 0 0;  //41px & 41px-5px(lh)
+  padding: (43px/1920px * 100%) 0 0; //41px & 41px-5px(lh)
   border-top: 1px solid $maingray;
 
   &__text {
     font-size: $commontext;
   }
-
 }
 
 .document {
-  font-size: 0.52vw;  //10px from 16px standard
+  font-size: 0.52vw; //10px from 16px standard
   line-height: 1;
 }
 
 .footer {
-  padding-top: (200px/1920px*100%);
+  padding-top: (200px/1920px * 100%);
 
   &__copyright {
-    margin-top: (205px/1920px*100%);
+    margin-top: (205px/1920px * 100%);
   }
-
 }
 
 .gallery {
-
   &__item {
     display: inline-block;
-    width: (279px/(1920px - $o-pad-m*2)*100%);
-    margin-right: (50px/(1920px - $o-pad-m*2)*100%);
+    width: (279px/ (1920px - $o-pad-m * 2) * 100%);
+    margin-right: (50px/ (1920px - $o-pad-m * 2) * 100%);
     margin-left: -4px;
     @include phone {
       width: 47%;
       margin-right: 6%;
     }
-
   }
 
-  &__item:nth-child(5n+5) {
+  &__item:nth-child(5n + 5) {
     margin-right: 0;
     @include phone {
       margin-right: 6%;
     }
-
   }
 
-  &__item:nth-child(2n+2) {
+  &__item:nth-child(2n + 2) {
     @include phone {
       margin-right: 0;
     }
-
   }
 
-  &__item:nth-child(n+6) {
-    margin-top: (50px/(1920px - $o-pad-m*2)*100%);
+  &__item:nth-child(n + 6) {
+    margin-top: (50px/ (1920px - $o-pad-m * 2) * 100%);
     @include phone {
       margin-top: 0;
     }
-
   }
 
-  &__item:nth-child(n+2) {
+  &__item:nth-child(n + 2) {
     @include phone {
       margin-top: 6%;
     }
-
   }
 
   &__img {
     width: 100%;
     height: auto;
   }
-
 }
 
 .header {
-  background: transparent url('../images/background.jpg') 0 0 no-repeat;
+  background: transparent url("../images/background.jpg") 0 0 no-repeat;
   background-size: cover;
-  padding-top: (147px/1920px*100%);
+  padding-top: (147px/1920px * 100%);
 
   &__logo {
-    margin-top: (148px/1920px*100%);
+    margin-top: (148px/1920px * 100%);
   }
 
   &__scroll {
-    margin-top: (122px/1920px*100%);
+    margin-top: (122px/1920px * 100%);
   }
-
 }
 
-
 $logoheight: 47.6rem;
-$logoheight-l: $logoheight*1.3;
-$logoheight-xl: $logoheight*2;
+$logoheight-l: $logoheight * 1.3;
+$logoheight-xl: $logoheight * 2;
 $logopad: 5.5rem;
 
 .logo {
   text-align: center;
   padding-top: ($logoheight + $logopad);
-  background: transparent url('../images/logo.png') 50% 0 no-repeat;
+  background: transparent url("../images/logo.png") 50% 0 no-repeat;
   background-size: auto $logoheight;
   @include tablet {
     background-size: auto $logoheight-l;
@@ -280,7 +251,6 @@ $logopad: 5.5rem;
   @include phone {
     background-size: auto $logoheight-xl;
     padding-top: ($logoheight-xl + $logopad);
-
   }
 
   &__text {
@@ -292,13 +262,11 @@ $logopad: 5.5rem;
     @include phone {
       font-size: $head1-xl;
     }
-
   }
 
   &__text_style_bold {
     font-weight: bold;
   }
-
 }
 
 .menu {
@@ -308,8 +276,8 @@ $logopad: 5.5rem;
   right: 0;
   font-size: $maintext;
   text-align: center;
-  padding: (41px/1920px*100%) 0 (36px/1920px*100%);  //41px & 41px-5px(lh)
-  background-color: rgba(150, 150, 150, .7);
+  padding: (41px/1920px * 100%) 0 (36px/1920px * 100%); //41px & 41px-5px(lh)
+  background-color: rgba(150, 150, 150, 0.7);
   border-bottom: 1px solid $maingray;
   @include laptop {
     font-size: $maintext-l;
@@ -325,11 +293,10 @@ $logopad: 5.5rem;
 
   &__item {
     display: inline-block;
-    padding-right: (42.2px/$maintext*.1em*1rem/1px);  //50px
+    padding-right: (42.2px / $maintext * 0.1em * 1rem/1px); //50px
     @include phone {
       padding-right: 5px;
     }
-
   }
 
   &__link {
@@ -342,9 +309,7 @@ $logopad: 5.5rem;
     @include phone {
       padding-right: 0;
     }
-
   }
-
 }
 
 .page {
@@ -355,11 +320,11 @@ $logopad: 5.5rem;
 
 .portfolio {
   text-align: center;
-  background: transparent url('../images/background2.jpg') 0 0 no-repeat;
+  background: transparent url("../images/background2.jpg") 0 0 no-repeat;
   background-size: cover;
   padding-left: $pad-m;
   padding-right: $pad-m;
-  padding-top: (90px/1920px*100%);
+  padding-top: (90px/1920px * 100%);
   @include tablet {
     padding-left: $pad-s;
     padding-right: $pad-s;
@@ -370,8 +335,8 @@ $logopad: 5.5rem;
 
   &__headline {
     font-size: $head1;
-    margin-top: (88px/$head1*.1rem*1em/1px);
-    margin-bottom: (80px/$head1*.1rem*1em/1px);
+    margin-top: (88px / $head1 * 0.1rem * 1em/1px);
+    margin-bottom: (80px / $head1 * 0.1rem * 1em/1px);
     @include tablet {
       font-size: $head1-l;
     }
@@ -379,13 +344,11 @@ $logopad: 5.5rem;
     @include phone {
       font-size: $head1-xl;
     }
-
   }
 
   &__scroll {
     margin-top: 75px;
   }
-
 }
 
 .scroll {
@@ -406,16 +369,13 @@ $logopad: 5.5rem;
     @include phone {
       font-size: $commontext-fix;
     }
-
   }
 }
 
 .section {
-  padding-bottom: (54px/1920px*100%);
+  padding-bottom: (54px/1920px * 100%);
 }
 
 .sm__button:not(:last-child) {
   margin-right: 20px;
-
 }
-
