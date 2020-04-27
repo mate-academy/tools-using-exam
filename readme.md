@@ -2,7 +2,7 @@
 1. Replace `<your_account>` with your Github username in the links
     - [DEMO LINK](https://germandolia.github.io/tools-using-exam/)
     - [TEST REPORT LINK](https://germandolia.github.io/tools-using-exam/report/html_report/)
-    - [VIDEO LINK](https://www.loom.com/share/<video_id>)
+    - [VIDEO LINK](https://www.loom.com/share/cd3afb0236c54c30a92de384c12e4708)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
 ___
 
