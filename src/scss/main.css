@@ -155,7 +155,7 @@
 
 .contacts__channel {
   margin-bottom: 1.06em;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
@@ -303,7 +303,7 @@
 @media only screen and (max-width: 768px) {
   .logo {
     background-size: auto 61.8rem;
-    padding-top: 67.3rem;
+    padding-top: 67.4rem;
   }
 }
 
