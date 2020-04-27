@@ -2,7 +2,8 @@
 1. Replace DeadTR with your Github username in the links
     - [DEMO LINK](https://Dead-TR.github.io/{{put the repo name}}/)
     - [TEST REPORT LINK](https://Dead-TR.github.io/{{put the repo name}}/report/html_report/)
-    - [VIDEO LINK](https://www.loom.com/share/<video_id>)
+    - [VIDEO LINK 1](https://www.loom.com/share/3740d51dd66349d59f3a33079663acfa)
+    - [VIDEO LINK 2](https://www.loom.com/share/804831c22e0f4f1c8268aed12703bc25)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
 ___
 
