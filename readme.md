@@ -1,8 +1,9 @@
 # Tools using exam
-1. Replace `<your_account>` with your Github username in the links
-    - [DEMO LINK](https://<your_account>.github.io/{{put the repo name}}/)
-    - [TEST REPORT LINK](https://<your_account>.github.io/{{put the repo name}}/report/html_report/)
-    - [VIDEO LINK](https://www.loom.com/share/<video_id>)
+1. Replace DeadTR with your Github username in the links
+    - [DEMO LINK](https://Dead-TR.github.io/tools-using-exam/)
+    - [VIDEO LINK 1](https://www.loom.com/share/3740d51dd66349d59f3a33079663acfa)
+    - [VIDEO LINK 2](https://www.loom.com/share/804831c22e0f4f1c8268aed12703bc25)
+    -[VIDEO LINK 3](https://www.loom.com/share/9f6b55683b524873b9944b570985c3a2)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
 ___
 
