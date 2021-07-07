@@ -1,8 +1,9 @@
-@import 'fonts';
+@import "fonts";
 
-@import 'variables';
+@import "variables";
 
-@import 'mixins';
+@import "mixins";
+
 .about {
   padding-left: $pad-m;
   padding-right: $pad-m;
@@ -35,7 +36,7 @@
   }
 
   &__layout-right {
-    padding-left: (54px/(1920px-167px*2)*100%);
+    padding-left: (54px/(1920px - 167px*2)*100%);
     flex: 1 1;
     align-self: center;
     @include laptop {
