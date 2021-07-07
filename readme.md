@@ -1,8 +1,8 @@
 # Tools using exam
 1. Replace `<your_account>` with your Github username in the links
-    - [DEMO LINK](https://<your_account>.github.io/{{put the repo name}}/)
-    - [TEST REPORT LINK](https://<your_account>.github.io/{{put the repo name}}/report/html_report/)
-    - [VIDEO LINK](https://www.loom.com/share/<video_id>)
+    - [DEMO LINK](https://PolishchukViacheslav.github.io/tools-using-exam/)
+    - [TEST REPORT LINK](https://PolishchukViacheslav.github.io/tools-using-exam/report/html_report/)
+    - [VIDEO LINK](https://www.loom.com/share/0819de392bbf41fa9e64e54dbe3de10a)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
 ___
 
