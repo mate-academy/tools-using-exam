@@ -64,7 +64,7 @@
     font-size: $head1;
     color: $mainblack;
     @include laptop {
-      margin-bottom: (8.6rem/$head1*1em*.6);
+      margin-bottom: (8.6rem/$head1*1em*0.6);
     }
 
     @include tablet {
